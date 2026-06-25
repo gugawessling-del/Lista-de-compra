@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+
+    display: grid;
+    gap: 15px;
+}
+
+.entrada {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comprado {
+    text-decoration: line-through;
+    color: green;
+}
+
+#mensagem {
+    color: red;
+    font-weight: bold;
+}
